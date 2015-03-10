@@ -196,7 +196,7 @@
 
     cloud.overflow = function(x) {
       if (!arguments.length) return overflow;
-      overflow = d3.functor(x);
+      overflow = x;
       return cloud;
     };
 
